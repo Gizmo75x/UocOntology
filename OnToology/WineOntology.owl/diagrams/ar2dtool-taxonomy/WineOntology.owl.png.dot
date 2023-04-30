@@ -1,0 +1,18 @@
+digraph ar2dtool_diagram { 
+rankdir=LR;
+size="1000"
+node [shape = rectangle, color="black"]; "OntologySpanishWine:High" "OntologySpanishWine:Wine" "OntologySpanishWine:Grand_Reserve" "OntologySpanishWine:Reserve" "OntologySpanishWine:Sparkling" "OntologySpanishWine:Quality" "OntologySpanishWine:Pink" "OntologySpanishWine:Crianza" "OntologySpanishWine:White" "OntologySpanishWine:Red" "OntologySpanishWine:Young" "OntologySpanishWine:Low" "OntologySpanishWine:Table" "OntologySpanishWine:Medium" ; /*classes style*/
+	"OntologySpanishWine:Low" -> "OntologySpanishWine:Quality" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Reserve" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Table" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Pink" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Red" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Crianza" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Medium" -> "OntologySpanishWine:Quality" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:White" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Young" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:High" -> "OntologySpanishWine:Quality" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Grand_Reserve" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+	"OntologySpanishWine:Sparkling" -> "OntologySpanishWine:Wine" [ label = "rdfs:subClassOf" ];
+
+}
