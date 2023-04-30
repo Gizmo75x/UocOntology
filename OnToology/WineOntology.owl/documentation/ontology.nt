@@ -1,0 +1,488 @@
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl> <http://www.w3.org/2000/01/rdf-schema#comment> "Created by David Pardo Lozano" .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl> <http://www.w3.org/2000/01/rdf-schema#label> "Ontology on Spanish wines" .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.w3.org/2000/01/rdf-schema#comment> "A wine belongs to the region of ....." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "The wine is classified in the dataset." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.w3.org/2000/01/rdf-schema#comment> "The wine is from the winery." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the winery where the wine comes from" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine Classification Table Name" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the region where the wine comes from" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Name Wine name" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Rating> <http://www.w3.org/2000/01/rdf-schema#comment> "Rating awarded from the wine classification table" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <http://www.w3.org/2002/07/owl#topDataProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#float> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> <http://www.w3.org/2000/01/rdf-schema#comment> "Overall wine quality" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> <http://www.w3.org/2000/01/rdf-schema#comment> "wine year" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Barrel
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Barrel> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Barrel> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine barrel where it is preserved" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> <http://www.w3.org/2000/01/rdf-schema#comment> "Winery that made the wine." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Crianza
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Crianza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Crianza> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Crianza> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called crianza." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> <http://www.w3.org/2000/01/rdf-schema#comment> "Data Set where the wine was classified" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Food_With_Wine
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Food_With_Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Food_With_Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Food that goes well with wine" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grand_Reserve
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grand_Reserve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grand_Reserve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grand_Reserve> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called Gran Reserva." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape> <http://www.w3.org/2000/01/rdf-schema#comment> "Types of grapes to make wine." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape_Percentage
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape_Percentage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grape_Percentage> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine grape percentage" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> <http://www.w3.org/2000/01/rdf-schema#comment> "Generally high wine quality" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> <http://www.w3.org/2000/01/rdf-schema#comment> "Generally low wine quality" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> <http://www.w3.org/2000/01/rdf-schema#comment> "Generally medium wine quality" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Pink
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Pink> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Pink> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Pink> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called rosé." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> <http://www.w3.org/2000/01/rdf-schema#comment> "Overall wine quality" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called red." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Reserve
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Reserve> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Reserve> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Reserve> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called Reserva." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Soil_Type
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Soil_Type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Soil_Type> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of soil where the grapes were planted" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Sparkling
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Sparkling> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Sparkling> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Sparkling> <http://www.w3.org/2000/01/rdf-schema#comment> "Sparkling Wine" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Table
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Table> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Table> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Table> <http://www.w3.org/2000/01/rdf-schema#comment> "Table wine" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard> <http://www.w3.org/2000/01/rdf-schema#comment> "Vineyard where the wine grapes came from." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard_Cultivation_System
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard_Cultivation_System> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vineyard_Cultivation_System> <http://www.w3.org/2000/01/rdf-schema#comment> "Type of irrigation and grape cultivation" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#White
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#White> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#White> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#White> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called white." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine characteristics." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> <http://www.w3.org/2000/01/rdf-schema#comment> "Spanish region with denomination where the wine is from." .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Tasting
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Tasting> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Tasting> <http://www.w3.org/2000/01/rdf-schema#comment> "Description of the wine tasting" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Young
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Young> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Young> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Young> <http://www.w3.org/2000/01/rdf-schema#comment> "Wine called young." .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Bodegas_Valduero
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Bodegas_Valduero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Bodegas_Valduero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Bodegas_Valduero> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> "Bodegas Valduero" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#La_Rioja
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#La_Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#La_Rioja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#La_Rioja> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> "La rioja" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#La_Rioja> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Remirez_de_Ganuza> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> "Maria Remirez de Ganuza" .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> "3.1"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Maria_Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> "2006"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Remirez_de_Ganuza
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Remirez_de_Ganuza> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Remirez_de_Ganuza> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> "Remirez de Ganuza" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> "Ribera del Duero" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Grand_Reserve> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Red> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Bodegas_Valduero> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> "Ribera Del Duero Gran Reserva 12 Años" .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> "1999"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Gran_Reserva_12_años> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> "4.6"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Red
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Red> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero_Red> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> "Ribera del Duero Red" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Data_Set_Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Dataset> "Spanish Wine Quality Dataset" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Teso_La_Monja
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Teso_La_Monja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Teso_La_Monja> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Teso_La_Monja> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> "Teso La Monja" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Red> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#belongingTo> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Toro> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Teso_La_Monja> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> "Tinto" .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> "3.3"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Tinto> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> "2015"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Toro
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Toro> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Region_Of_Spain> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Toro> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Region> "Toro" .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Quality> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Reserve> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isClassifiedIn> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Spanish_Wine_Quality_DataSet> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Ribera_del_Duero> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#isFrom> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vega_Sicilia> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Wine> "Unico Reserva Especial Edicion" .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> "6.8"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Unico_Reserva_Especial_Edicion> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#year> "2016"^^<http://www.w3.org/2001/XMLSchema#integer> .
+# 
+# http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vega_Sicilia
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vega_Sicilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vega_Sicilia> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Cellar> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Vega_Sicilia> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Name_Cellar> "Vega Sicilia" .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid1 <http://www.w3.org/2002/07/owl#members> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid3 .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid2 .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> .
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid16 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid16 <http://www.w3.org/2000/01/rdf-schema#label> "High Quality" .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid16 <http://www.w3.org/2003/11/swrl#body> _:genid21 .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid19 .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid18 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid20 .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid20 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid20 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid22 .
+_:genid22 <http://www.w3.org/2003/11/swrl#arguments> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid23 .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid22 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+<http://www.w3.org/2003/11/swrlb#greaterThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid16 <http://www.w3.org/2003/11/swrl#head> _:genid25 .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid26 .
+_:genid26 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid26 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#High> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid27 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid27 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid27 <http://www.w3.org/2000/01/rdf-schema#label> "Medium quality" .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid27 <http://www.w3.org/2003/11/swrl#body> _:genid36 .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid32 .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid30 .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid28 .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid29 .
+_:genid29 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid29 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid31 .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid31 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid31 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid33 .
+_:genid33 <http://www.w3.org/2003/11/swrl#arguments> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid34 .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid33 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#greaterThan> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid37 .
+_:genid37 <http://www.w3.org/2003/11/swrl#arguments> _:genid39 .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid38 .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid37 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+<http://www.w3.org/2003/11/swrlb#lessThan> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Builtin> .
+_:genid37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid27 <http://www.w3.org/2003/11/swrl#head> _:genid40 .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid41 .
+_:genid41 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid41 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Medium> .
+_:genid41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid5 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid5 <http://www.w3.org/2000/01/rdf-schema#comment> "" .
+_:genid5 <http://www.w3.org/2000/01/rdf-schema#label> "Low Quality" .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid5 <http://www.w3.org/2003/11/swrl#body> _:genid12 .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid10 .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid7 .
+_:genid7 <http://www.w3.org/2003/11/swrl#arguments> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> "4"^^<http://www.w3.org/2001/XMLSchema#integer> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/2003/11/swrl#builtin> <http://www.w3.org/2003/11/swrlb#lessThan> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#BuiltinAtom> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid11 .
+_:genid11 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid11 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid13 .
+_:genid13 <http://www.w3.org/2003/11/swrl#argument2> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/h> .
+_:genid13 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid13 <http://www.w3.org/2003/11/swrl#propertyPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Wine_Quality> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#DatavaluedPropertyAtom> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid5 <http://www.w3.org/2003/11/swrl#head> _:genid14 .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid15 .
+_:genid15 <http://www.w3.org/2003/11/swrl#argument1> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine/v> .
+_:genid15 <http://www.w3.org/2003/11/swrl#classPredicate> <http://www.semanticweb.org/davidin/ontologies/2023/3/OntologySpanishWine.owl#Low> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/
